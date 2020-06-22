@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset = "utf-8" name="viewport" content="width=device-width, initial-scale=1">
+	<title> Dark Souls 2 </title>
+	<link href = '../css/story.css' rel = 'stylesheet'>
+	<link href = '../css/list.css' rel = 'stylesheet'>
+	<script src="../javascript/story.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+<div class = "menuBar">
+		<ul>
+			<li><a href = "Home.html"> Home </a></li>
+			<li><a href = "items.html"> Items </a></li>
+			<li><a> Story </a>
+				<ul> 
+					<li><a href = "story1.html"> Dark Souls 1 </a></li>
+					<li><a href = "story2.html"> Dark Souls 2 </a></li>
+					<li><a href = "story3.html"> Dark Souls 3 </a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	<br><br><br><br><br><br>
+	<div class = "plot2">
+		<p id = "thirdPart"> The story of Dark Souls II begins with a human who has become Undead, cursed to never die and doomed to eventually become a Hollow, a zombie-like being with no memories or purpose. To break the curse, the undead travels to the fallen kingdom of Drangleic and is tasked by the Emerald Herald with obtaining four Great Souls from powerful Old Ones whose names are long forgotten and forbidden. Once obtained, the Emerald Herald directs the undead to "Seek the King" in the capital. After fighting through the remains of the royal guards, the player encounters the Queen Nashandra, who reveals that the king failed in his duty and fled his kingdom long ago. She asks the protagonist to slay the king.
+
+Near the end of the Queen's quest, the player learns that the ruin of the kingdom was in fact caused by Nashandra. She came to the king and deceived him into launching an ill-fated invasion across the sea into the lands of the Giants. She coveted their souls and sought to steal their power. Though the raid succeeded in stealing the Giant's unspecified power, the Giants retaliated. Invading Drangleic, the Giants eventually destroyed the kingdom. With his kingdom in ruins, the king discovered Nashandra's true purpose and locked himself inside the Undead Crypt.
+		</p>
+		
+		<p id = "forthPart"> In order to confront Nashandra, the player character travels to the keep of Aldia, the King's brother, to obtain the Ashen Mist Heart, an artifact that allows a form of time travel, by accessing the "memories" of corpses. The player must enter the memories of a deceased Giant to defeat the Giant Lord during the invasion and claim his power for their own. Confronting the Emerald Herald one final time, she states that Nashandra is a fragment of Manus, the final boss in the Artorias of the Abyss expansion in Dark Souls. She then asks the protagonist to put Nashandra to rest and to link the fire, temporarily lifting the curse of the Undead at the cost of the player's life.
+
+In the Scholar of the First Sin version of the game, the base story changes slightly, notably with the addition of Aldia after the defeat of Nashandra. If the player has completed the three DLC areas and defeated King Vendrick, Aldia attempts to help the protagonist understand that there might be a way out of the endless cycle of death and rebirth. The player is given a choice: they can either link the fire, restarting the Age of Fire, and repeating the cycle; or the player can abscond the throne, resisting the effects of Hollowing and following their own unknown path beyond light or dark.
+	</p>
+	<button id = "next2" type = "button" onclick="seeMore2()"> Push </button> 
+	</div>
+	
+	<script>
+	$(document).ready(function seeMore2(){
+  $("#next2").click(function(){
+	$("#forthPart").fadeToggle("slow");
+  });
+});
+</script>
+	
+</body>
+</html>

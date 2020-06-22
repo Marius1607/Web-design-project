@@ -1,0 +1,42 @@
+body {
+	background-color: black;
+	background-image: url("../images/2.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.panel {
+	height: 100px;
+	width: 30%;
+}
+
+.panel p{
+	font-family: fantasy;
+	font-size: 50px;
+	position: center;
+	color: red;
+}
+
+.panel label{
+	color: white;
+	font-family: 30px;
+	font-size: 25px;
+}
+
+.panel input{
+	width: 50%;
+}
+
+#loginButton{
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	left: 20%;
+	top: 35%;
+}
+
+#wrongLogin {
+	font-size: medium;
+	color: red;
+	display:block;
+}

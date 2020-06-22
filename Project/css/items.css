@@ -1,0 +1,35 @@
+body {
+	background-color: black;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#text{
+	color:white;
+	font-size:30px;
+	display: block;
+}
+
+#seeBtn{
+	display: block;
+	padding: 5px 40%;
+	text-align: center;
+}
+
+#hideBtn{
+	display: none;
+	padding: 5px 40%;
+	text-align: center;
+	position: relative;
+}
+
+#sword{
+	position: absolute;
+	left: 170px;
+	right: 170px;
+	display: none;
+}
+.page{
+	position:absolute;
+	left:50px;
+	right:50px;
+}

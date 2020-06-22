@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset = "utf-8" name="viewport" content="width=device-width, initial-scale=1">
+	<title> Items </title>
+	<link href = '../css/items.css' rel = 'stylesheet'>
+	<link href = '../css/list.css' rel = 'stylesheet'>
+	<script src="../javascript/story.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+<div class = "menuBar">
+		<ul>
+			<li><a href = "Home.html"> Home </a></li>
+			<li><a href = "items.html"> Items </a></li>
+			<li><a> Story </a>
+				<ul> 
+					<li><a href = "story1.html"> Dark Souls 1 </a></li>
+					<li><a href = "story2.html"> Dark Souls 2 </a></li>
+					<li><a href = "story3.html"> Dark Souls 3 </a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	<br><br><br><br><br><br>
+	<div class = "page">
+		<p id = "text">Items in Dark Souls will be much the same as previous Souls games. Categories for the wiki are separated for player convenience into: Key Items, Multiplayer Items, Consumables, Tools, Projectiles, Ammunition, Souls, Boss Souls & Upgrade Materials.		</p>
+	<button id = "seeBtn" type = "button" onclick="seePhotos()"> See photos</button>
+	<img id = "sword" src = "../images/sword.png" alt = "photo with items">
+	<button id = "hideBtn" type = "button" onclick="hidePhotos()"> Hide photos</button>
+	</div>
+	
+<script>
+	$(document).ready(function seePhotos(){
+	$("#seeBtn").click(function(){
+	$("#sword").slideDown("slow");
+	$("#seeBtn").delay(800).hide("slow");
+	$("#hideBtn").delay(800).show("slow");
+  });
+});
+
+$(document).ready(function hidePhotos(){
+	$("#hideBtn").click(function(){
+	$("#sword").slideUp("slow");
+	$("#hideBtn").delay(1000).hide("slow");
+	$("#seeBtn").delay(1200).show("slow");
+  });
+});
+</script>
+	
+	
+</body>
+</html>

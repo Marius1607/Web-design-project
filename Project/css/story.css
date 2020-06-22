@@ -1,0 +1,60 @@
+body {
+	background-color: black;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#firstPart {
+	color:white;
+	font-size:30px;
+	display: block;
+}
+
+#secondPart{
+	color:white;
+	font-size:30px;
+	display: none;
+}
+
+#thirdPart {
+	color:white;
+	font-size:30px;
+	display: block;
+}
+
+#forthPart {
+	color:white;
+	font-size:30px;
+	display: none;
+}
+
+#fifthPart {
+	color:white;
+	font-size:30px;
+	display: block;
+}
+
+#sixthPart {
+	color:white;
+	font-size:30px;
+	display: none;
+}
+.story{
+	position:absolute;
+	left:50px;
+	right:50px;
+}
+
+.plot2{
+	position:absolute;
+	left:50px;
+	right:50px;
+}
+#next{
+	background-color:white;
+	color:black;
+	display:block;
+	padding:20px;
+	text-align:center;
+}
+
